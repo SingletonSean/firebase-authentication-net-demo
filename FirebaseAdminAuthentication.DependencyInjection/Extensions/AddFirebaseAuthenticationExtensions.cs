@@ -1,8 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using FirebaseAdminAuthentication.DependencyInjection.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace FirebaseAuthenticationDemo.API.Authentication
+namespace FirebaseAdminAuthentication.DependencyInjection.Extensions
 {
     public static class AddFirebaseAuthenticationExtensions
     {

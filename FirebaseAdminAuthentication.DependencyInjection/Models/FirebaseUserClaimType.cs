@@ -1,4 +1,4 @@
-﻿namespace FirebaseAuthenticationDemo.API.Authentication
+﻿namespace FirebaseAdminAuthentication.DependencyInjection.Models
 {
     public static class FirebaseUserClaimType
     {

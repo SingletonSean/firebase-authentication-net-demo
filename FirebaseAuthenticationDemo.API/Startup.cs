@@ -1,5 +1,5 @@
 using FirebaseAdmin;
-using FirebaseAuthenticationDemo.API.Authentication;
+using FirebaseAdminAuthentication.DependencyInjection.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

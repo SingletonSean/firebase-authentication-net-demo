@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.11" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>FirebaseAdminAuthentication.DependencyInjection</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>SingletonSean</Authors>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryUrl>https://github.com/SingletonSean/firebase-authentication-net-demo</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SingletonSean/firebase-authentication-net-demo</PackageProjectUrl>
+    <PackageTags>firebase authentication asp net dependency injection service</PackageTags>
+    <Description>
+      Add Firebase Authentication to an ASP.NET application.
+    </Description>
+  </PropertyGroup>
+
+</Project>

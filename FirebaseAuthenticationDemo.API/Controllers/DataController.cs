@@ -1,4 +1,5 @@
-﻿using FirebaseAuthenticationDemo.API.Authentication;
+﻿using FirebaseAdminAuthentication.DependencyInjection.Extensions;
+using FirebaseAdminAuthentication.DependencyInjection.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,17 +1,17 @@
 ﻿using FirebaseAdmin;
 using FirebaseAdmin.Auth;
+using FirebaseAdminAuthentication.DependencyInjection.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace FirebaseAuthenticationDemo.API.Authentication
+namespace FirebaseAdminAuthentication.DependencyInjection.Services
 {
     public class FirebaseAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {

@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FirebaseAdminAuthentication.DependencyInjection.Models;
+using Microsoft.AspNetCore.Http;
 using System.Security.Claims;
 
-namespace FirebaseAuthenticationDemo.API.Authentication
+namespace FirebaseAdminAuthentication.DependencyInjection.Extensions
 {
     public static class GetFirebaseUserHttpContextExtensions
     {
