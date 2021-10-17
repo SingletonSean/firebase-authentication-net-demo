@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using FirebaseAuthenticationDemo.API.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirebaseAuthenticationDemo.API.Controllers
@@ -10,7 +11,9 @@ namespace FirebaseAuthenticationDemo.API.Controllers
         [HttpGet("/")]
         public IActionResult GetData()
         {
-            return Ok();
+            FirebaseUser user = HttpContext.GetFirebaseUser();
+
+            return Ok(user);
         }
     }
 }

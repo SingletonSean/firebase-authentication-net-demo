@@ -7,7 +7,7 @@ namespace FirebaseAuthenticationDemo.ConsoleApp
 {
     class Program
     {
-        private const string API_KEY = "AIzaSyBAMWRcYFY2awFzMmDiVdukxZvErKdNfJA";
+        private const string API_KEY = "AIzaSyAasA1QU9Bpo0IdRSQGzU5OEKzTE9DZZfk";
 
         static async Task Main(string[] args)
         {

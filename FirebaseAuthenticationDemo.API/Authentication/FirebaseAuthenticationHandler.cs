@@ -71,9 +71,10 @@ namespace FirebaseAuthenticationDemo.API.Authentication
         {
             return new List<Claim>
             {
-                new Claim("id", claims["user_id"].ToString()),
-                new Claim("email", claims["email"].ToString()),
-                new Claim("name", claims["name"].ToString()),
+                new Claim(FirebaseUserClaimType.ID, claims["user_id"]?.ToString()),
+                new Claim(FirebaseUserClaimType.EMAIL, claims["email"]?.ToString()),
+                new Claim(FirebaseUserClaimType.EMAIL_VERIFIED, claims["email_verified"]?.ToString()),
+                new Claim(FirebaseUserClaimType.USERNAME, claims["name"]?.ToString()),
             };
         }
     }
