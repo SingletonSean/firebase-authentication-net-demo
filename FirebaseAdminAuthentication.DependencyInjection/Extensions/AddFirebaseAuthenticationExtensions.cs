@@ -13,6 +13,8 @@ namespace FirebaseAdminAuthentication.DependencyInjection.Extensions
                 .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddScheme<AuthenticationSchemeOptions, FirebaseAuthenticationHandler>(JwtBearerDefaults.AuthenticationScheme, (o) => { });
 
+            services.AddScoped<FirebaseAuthenticationFunctionHandler>();
+
             return services;
         }
     }

@@ -12,14 +12,14 @@
 
   <PropertyGroup>
     <PackageId>FirebaseAdminAuthentication.DependencyInjection</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <Authors>SingletonSean</Authors>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RepositoryUrl>https://github.com/SingletonSean/firebase-authentication-net-demo</RepositoryUrl>
     <PackageProjectUrl>https://github.com/SingletonSean/firebase-authentication-net-demo</PackageProjectUrl>
-    <PackageTags>firebase authentication asp net dependency injection service</PackageTags>
+    <PackageTags>firebase authentication asp net dependency injection service azure</PackageTags>
     <Description>
-      Add Firebase Authentication to an ASP.NET application.
+      Add Firebase Authentication to an ASP.NET or Azure Functions application.
     </Description>
   </PropertyGroup>
 
